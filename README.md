@@ -37,6 +37,7 @@ Technical examinations, exhaustive architectural deep-dives, and detailed workfl
 Software utilities, automation scripts, and development plugins for structuring and maintaining LLM wikis.
 
 - [Wiki Builder (DAIR.AI)](https://academy.dair.ai/blog/wiki-builder-claude-code-plugin) - An open-source Claude Code plugin that automates directory scaffolding, configures prompt templates, and handles multi-flavor workspace indexing.
+- [claude-obsidian](https://agricidaniel.com/blog/claude-obsidian-ai-second-brain) - An open-source Claude Code skill suite implementing a persistent hot-cache memory architecture, automated multi-turn research sub-agents, and programmatic Obsidian Canvas flowchart compilation.
 
 ## Videos
 
