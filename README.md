@@ -10,6 +10,8 @@ Inspired by a paradigm shift in software development engineering, this architect
 
 - [Foundations](#foundations)
 - [Articles and Guides](#articles-and-guides)
+- [Tools and Plugins](#tools-and-plugins)
+- [Videos](#videos)
 
 ---
 
@@ -25,8 +27,22 @@ Foundational whitepapers, conceptual architectures, and structural blueprints ou
 
 Technical examinations, exhaustive architectural deep-dives, and detailed workflow overviews.
 
+- [How to Build an LLM Knowledge Base (DAIR.AI)](https://academy.dair.ai/blog/how-to-build-an-llm-knowledge-base) - A practical workshop guide defining a standard local directory architecture and outlining repeatable agentic compiler patterns.
 - [Karpathy's LLM Wiki: The Complete Guide (Agentpedia Codes)](https://antigravity.codes/blog/karpathy-llm-wiki-idea-file) - An exhaustive breakdown analyzing the three-layer architecture, comparing static compilation vs. traditional RAG, and detailing prompt configurations.
 - [LLM Knowledge Bases (DAIR.AI)](https://academy.dair.ai/blog/llm-knowledge-bases-karpathy) - A detailed breakdown of the four-phase compilation pipeline (Ingest, Compile, Query, Lint) with architecture diagrams and implementation workflows.
+- [Self-Authoring LLM Knowledge Bases](https://www.ricardodecal.com/projects/self-authoring-llm-knowledge-base/) - A technical conceptualization extending the compilation loop to live developer conversations, transforming ephemeral terminal and editor interactions into structured, persistent memory.
+
+## Tools and Plugins
+
+Software utilities, automation scripts, and development plugins for structuring and maintaining LLM wikis.
+
+- [Wiki Builder (DAIR.AI)](https://academy.dair.ai/blog/wiki-builder-claude-code-plugin) - An open-source Claude Code plugin that automates directory scaffolding, configures prompt templates, and handles multi-flavor workspace indexing.
+
+## Videos
+
+Visual walkthroughs, conceptual code execution guides, and theoretical video essays.
+
+- [Why LLM Wiki? Future Of Knowledge For Agentic AI & Humans](https://www.youtube.com/watch?app=desktop&v=n4EVksU_EOs) - A visual guide explaining the mechanics of nodes, edges, and triples, the token-efficiency of GraphRAG over standard RAG, and a workflow for sandboxing human vs. agentic Obsidian vaults.
 
 ---
 
