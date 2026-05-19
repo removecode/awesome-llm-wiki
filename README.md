@@ -36,8 +36,9 @@ Technical examinations, exhaustive architectural deep-dives, and detailed workfl
 
 Software utilities, automation scripts, and development plugins for structuring and maintaining LLM wikis.
 
-- [Wiki Builder (DAIR.AI)](https://academy.dair.ai/blog/wiki-builder-claude-code-plugin) - An open-source Claude Code plugin that automates directory scaffolding, configures prompt templates, and handles multi-flavor workspace indexing.
+- [Cabinet](https://runcabinet.com/) - A free, open-source, file-based AI knowledge workspace that implements Karpathy's compilation loop, featuring git-backed auto-commits, scheduled agent automation cron-jobs, an integrated browser terminal, and embedded HTML application injection.
 - [claude-obsidian](https://agricidaniel.com/blog/claude-obsidian-ai-second-brain) - An open-source Claude Code skill suite implementing a persistent hot-cache memory architecture, automated multi-turn research sub-agents, and programmatic Obsidian Canvas flowchart compilation.
+- [Wiki Builder (DAIR.AI)](https://academy.dair.ai/blog/wiki-builder-claude-code-plugin) - An open-source Claude Code plugin that automates directory scaffolding, configures prompt templates, and handles multi-flavor workspace indexing.
 
 ## Videos
 
