@@ -47,6 +47,7 @@ Software utilities, automation scripts, and development plugins for structuring 
 - [llmwiki (Lucas Astorian)](https://github.com/lucasastorian/llmwiki) - An open-source Python engine and local web dashboard that indexes directories into a local SQLite repository, serving a specialized MCP adapter to automate Claude-driven wiki compilation and citation tracking.
 - [Pieces](https://pieces.app/) - A local-first developer context and snippet manager driven by an on-device Long-Term Memory (LTM) engine, exposing workflow history, auto-tagged codebases, and structural metadata to external agents via an integrated MCP server.
 - [QMD](https://github.com/tobi/qmd) - A local-first, mini CLI search engine and MCP server for markdown knowledge bases that combines BM25 full-text filtering, vector semantic search, and on-device LLM re-ranking.
+- [Tolaria](https://tolaria.md/) - An open-source, Git-first desktop markdown app and native MCP server engine built with Tauri and Rust, implementing structural file conventions, automatic AGENTS.md generation, and secure local file boundaries for agent processing.
 - [Wiki Builder (DAIR.AI)](https://academy.dair.ai/blog/wiki-builder-claude-code-plugin) - An open-source Claude Code plugin that automates directory scaffolding, configures prompt templates, and handles multi-flavor workspace indexing.
 
 ## Videos
