@@ -50,7 +50,7 @@ Software utilities, automation scripts, and development plugins for structuring 
 - [QMD](https://github.com/tobi/qmd) - A local-first, mini CLI search engine and MCP server for markdown knowledge bases that combines BM25 full-text filtering, vector semantic search, and on-device LLM re-ranking.
 - [SwarmVault](https://www.swarmvault.ai/) - A local-first RAG knowledge base compiler and MCP server that maps files into an interlinked Markdown wiki and SQLite-backed knowledge graph, featuring automated linting, local graph visualizations, and a compounding "file-back" exploratory architecture.
 - [Tolaria](https://tolaria.md/) - An open-source, Git-first desktop markdown app and native MCP server engine built with Tauri and Rust, implementing structural file conventions, automatic AGENTS.md generation, and secure local file boundaries for agent processing.
-- [Wiki Builder (DAIR.AI)](https://academy.dair.ai/blog/wiki-builder-claude-code-plugin) - An open-source Claude Code plugin that automates directory scaffolding, configures prompt templates, and handles multi-flavor workspace indexing.
+- [Wiki Builder (DAIR.AI)](https://github.com/dair-ai/dair-academy-plugins/tree/main/plugins/wiki-builder) - An open-source Claude Code plugin path that automates directory scaffolding, handles multi-flavor workspace indexing, and leverages localized markdown configuration files to govern agent compilation boundaries.
 
 ## Videos
 
