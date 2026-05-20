@@ -61,6 +61,7 @@ Software utilities, automation scripts, and development plugins for structuring 
 - [SwarmVault](https://github.com/swarmclawai/swarmvault) ([Website](https://www.swarmvault.ai/)) - A local-first RAG knowledge base compiler and MCP server that maps files into an interlinked Markdown wiki and SQLite-backed knowledge graph, featuring automated linting, local graph visualizations, and a compounding "file-back" exploratory architecture.
 - [Tolaria](https://tolaria.md/) - An open-source, Git-first desktop markdown app and native MCP server engine built with Tauri and Rust, implementing structural file conventions, automatic AGENTS.md generation, and secure local file boundaries for agent processing.
 - [Wiki Builder (DAIR.AI)](https://github.com/dair-ai/dair-academy-plugins/tree/main/plugins/wiki-builder) - An open-source Claude Code plugin path that automates directory scaffolding, handles multi-flavor workspace indexing, and leverages localized markdown configuration files to govern agent compilation boundaries.
+- [Wikiwise](https://github.com/TristanH/wikiwise) ([Website](https://wiki-wise.com/)) - A native macOS Swift application that wraps markdown directories into a fully browsable personal wiki interface, featuring a file-watcher compilation engine, cross-link indexing graph panels, and an embedded agent shell panel.
 
 ## Videos
 
