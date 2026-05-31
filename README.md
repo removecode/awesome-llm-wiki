@@ -32,6 +32,7 @@ Technical examinations, exhaustive architectural deep-dives, and detailed workfl
 - [Karpathy's LLM Wiki: The Complete Guide (Agentpedia Codes)](https://antigravity.codes/blog/karpathy-llm-wiki-idea-file) - An exhaustive breakdown analyzing the three-layer architecture, comparing static compilation vs. traditional RAG, and detailing prompt configurations.
 - [LLM Knowledge Bases (DAIR.AI)](https://academy.dair.ai/blog/llm-knowledge-bases-karpathy) - A detailed breakdown of the four-phase compilation pipeline (Ingest, Compile, Query, Lint) with architecture diagrams and implementation workflows.
 - [Self-Authoring LLM Knowledge Bases](https://www.ricardodecal.com/projects/self-authoring-llm-knowledge-base/) - A technical conceptualization extending the compilation loop to live developer conversations, transforming ephemeral terminal and editor interactions into structured, persistent memory.
+- [What Karpathy's LLM Wiki is Missing (And How to Fix It)](https://dev.to/penfieldlabs/what-karpathys-llm-wiki-is-missing-and-how-to-fix-it-1988) (Penfield Labs) - A deep architectural critique outlining solutions for token scaling limits in file-based context stores, featuring code patterns for semantic deduplication and pre-commit syntax hooks to protect structural integrity.
 
 ## Tools and Plugins
 
