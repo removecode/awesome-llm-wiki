@@ -72,8 +72,9 @@ Software utilities, automation scripts, and development plugins for structuring 
 
 Visual walkthroughs, conceptual code execution guides, and theoretical video essays.
 
-- [Why LLM Wiki? Future Of Knowledge For Agentic AI & Humans](https://www.youtube.com/watch?app=desktop&v=n4EVksU_EOs) (Wanderloots) - A visual guide explaining the mechanics of nodes, edges, and triples, the token-efficiency of GraphRAG over standard RAG, and a workflow for sandboxing human vs. agentic Obsidian vaults.
 - [How To Build LLM Wiki In Obsidian?](https://www.youtube.com/watch?v=QbjAQFJJyt0) (Wanderloots) - The definitive video tutorial mapping out the core 3-tier local memory architecture, showcasing how to build a file-based ingestion pipeline, implement a Git-backed maintenance loop, and deploy an agentic vault firewall wrapper.
+- [Karpathy's LLM Wiki: What It Means & How to Build One](https://www.youtube.com/watch?v=zVEb19AwkqM) (Tonbi's AI Garage) - A practical video guide on bootstrapping an LLM Wiki from scratch inside Claude Code, demonstrating automated multi-agent ingestion loops, backfill routines for external web research, and visual chart integrations.
+- [Why LLM Wiki? Future Of Knowledge For Agentic AI & Humans](https://www.youtube.com/watch?app=desktop&v=n4EVksU_EOs) (Wanderloots) - A visual guide explaining the mechanics of nodes, edges, and triples, the token-efficiency of GraphRAG over standard RAG, and a workflow for sandboxing human vs. agentic Obsidian vaults.
 
 ---
 
