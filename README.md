@@ -46,6 +46,7 @@ Software utilities, automation scripts, and development plugins for structuring 
 Code-first SDKs, programmatic pipelines, and developer libraries used to orchestrate or validate local context vaults.
 
 - [Graphify](https://github.com/safishamsi/graphify) - A multi-modal knowledge graph compilation engine that handles codebase AST parsing via tree-sitter alongside media transcription, producing localized agentic subgraphs to yield up to a 71.5x token efficiency gain.
+- [LLM Research Wiki](https://pypi.org/project/llm-research-wiki/) - A typed Python graph pipeline and framework engineered for complex literature mapping. Enforces a rigid 6-tier academic document topology via Pydantic schemas, features automated cross-link validation, and exports a native MCP server optimized for piping structured research vaults into Claude Code and Cursor.
 - [OpenKB](https://github.com/VectifyAI/OpenKB) ([Website](https://pageindex.ai/)) - An open-source Python CLI knowledge base framework that compiles multi-format documents into interlinked markdown vaults using a specialized tree-based index for vectorless long-document retrieval.
 - [Tesserae](https://pypi.org/project/tesserae/) - A statically-typed Python framework and pipeline engine for building, validating, and maintaining LLM wikis. Features Pydantic schema enforcement for page metadata, programmatic `agents.md` configuration assembly, an extensible workspace linter suite, and built-in MCP protocol adapters.
 
