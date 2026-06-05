@@ -30,6 +30,7 @@ Foundational whitepapers, conceptual architectures, and structural blueprints ou
 
 Technical examinations, exhaustive architectural deep-dives, and detailed workflow overviews.
 
+- [Building an 'Agent Only' Obsidian Vault (The Thinkers Club)](https://www.thethinkers.club/p/building-an-agent-only-obsidian-vault) - A technical architectural guide defining a human-agent sandbox paradigm. Details a methodology for isolating autonomous AI writers inside a dedicated secondary vault to compile a self-organizing wiki of consumed data, preventing context contamination and layout drift in human-authored notes.
 - [Commonplace](https://zby.github.io/commonplace/) - A technical framework establishing the theory of deploy-time learning for bounded AI observers, detailing semantic distillation operations, and providing automated CLI workspace management skills.
 - [How to Build an LLM Knowledge Base (DAIR.AI)](https://academy.dair.ai/blog/how-to-build-an-llm-knowledge-base) - A practical workshop guide defining a standard local directory architecture and outlining repeatable agentic compiler patterns.
 - [Karpathy's LLM Wiki: The Complete Guide (Agentpedia Codes)](https://antigravity.codes/blog/karpathy-llm-wiki-idea-file) - An exhaustive breakdown analyzing the three-layer architecture, comparing static compilation vs. traditional RAG, and detailing prompt configurations.
