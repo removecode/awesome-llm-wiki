@@ -21,7 +21,7 @@ Inspired by a paradigm shift in software development engineering, this architect
 
 ## Foundations
 
-Foundational whitepapers, conceptual architectures, and structural blueprints outlining static agentic compilation.
+*Foundational whitepapers, conceptual architectures, and structural blueprints outlining static agentic compilation.*
 
 - [Andrej Karpathy's LLM Wiki Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) - The foundational idea file laying out the core pattern, operations, and architecture for compounding AI knowledge bases.
 - [Farza's Personal Wiki Skill](https://gist.github.com/farzaa/c35ac0cfbeb957788650e36aabea836d) - A functional blueprint for implementing an LLM wiki compiler using Claude Code skills, including commands for ingestion, absorption, and automated cleanup.
@@ -29,7 +29,7 @@ Foundational whitepapers, conceptual architectures, and structural blueprints ou
 
 ## Articles and Guides
 
-Technical examinations, exhaustive architectural deep-dives, and detailed workflow overviews.
+*Technical examinations, exhaustive architectural deep-dives, and detailed workflow overviews.*
 
 - [Build your AI Brain (Leo Alexandru)](https://leoalexandru.substack.com/p/158-build-your-ai-brain) - A comprehensive production case study implementing a customized Karpathy LLM Wiki using the Claude Code CLI. Outlines a five-layer folder taxonomy, a flat permanent note topology, and a twelve-part modular agent skill ecosystem (`.claude/skills/`) to drive automated multi-stream file compilation (`/wiki-compile`), structural link linting (`/wiki-lint`), and contextual content generation.
 - [Building an 'Agent Only' Obsidian Vault (The Thinkers Club)](https://www.thethinkers.club/p/building-an-agent-only-obsidian-vault) - A technical architectural guide defining a human-agent sandbox paradigm. Details a methodology for isolating autonomous AI writers inside a dedicated secondary vault to compile a self-organizing wiki of consumed data, preventing context contamination and layout drift in human-authored notes.
@@ -45,11 +45,11 @@ Technical examinations, exhaustive architectural deep-dives, and detailed workfl
 
 ## Tools and Plugins
 
-Software utilities, automation scripts, and development plugins for structuring and maintaining LLM wikis.
+*Software utilities, automation scripts, and development plugins for structuring and maintaining LLM wikis.*
 
 ### Libraries and Frameworks
 
-Code-first SDKs, programmatic pipelines, and developer libraries used to orchestrate or validate local context vaults.
+*Code-first SDKs, programmatic pipelines, and developer libraries used to orchestrate or validate local context vaults.*
 
 - [Graphify](https://github.com/safishamsi/graphify) - A multi-modal knowledge graph compilation engine that handles codebase AST parsing via tree-sitter alongside media transcription, producing localized agentic subgraphs to yield up to a 71.5x token efficiency gain.
 - [LLM Research Wiki](https://pypi.org/project/llm-research-wiki/) - A typed Python graph pipeline and framework engineered for complex literature mapping. Enforces a rigid 6-tier academic document topology via Pydantic schemas, features automated cross-link validation, and exports a native MCP server optimized for piping structured research vaults into Claude Code and Cursor.
@@ -58,7 +58,7 @@ Code-first SDKs, programmatic pipelines, and developer libraries used to orchest
 
 ### Applications and Desktop Clients
 
-Dedicated graphical user interfaces, standalone desktop environments, and visual editor shells.
+*Dedicated graphical user interfaces, standalone desktop environments, and visual editor shells.*
 
 - [Cabinet](https://runcabinet.com/) - A free, open-source, file-based AI knowledge workspace that implements Karpathy's compilation loop, featuring git-backed auto-commits, scheduled agent automation cron-jobs, an integrated browser terminal, and embedded HTML application injection.
 - [LLM Wiki (Nash Su)](https://github.com/nashsu/llm_wiki) - A cross-platform Tauri desktop application that turns multi-format documents into interlinked markdown vaults, featuring two-step chain-of-thought ingestion, interactive Louvain community graphs, and an async human-in-the-loop review system.
@@ -67,7 +67,7 @@ Dedicated graphical user interfaces, standalone desktop environments, and visual
 
 ### CLI Tools and Core Compilers
 
-Terminal utilities, command-line automation scripts, and event-driven background compilation daemons.
+*Terminal utilities, command-line automation scripts, and event-driven background compilation daemons.*
 
 - [AutoSci](https://github.com/skyllwt/AutoSci) - An advanced, memory-centric autonomous scientific research platform powered by Claude Code. Implements a dual-layer markdown vault architecture (`SciMem`) to separate long-term scientific knowledge from active project frames, featuring multi-model critique validation loops, rigid Pydantic-style front-matter schema definitions, and a continuous self-evolution pipeline.
 - [Atomic](https://github.com/kenforthewin/atomic) - An open-source, self-hosted personal knowledge base built in Rust that transforms freeform markdown notes into a semantically linked graph, featuring asynchronous chunking pipelines via sqlite-vec, auto-generated tag wikis with inline citations, an integrated MCP server, and a force-directed canvas.
@@ -103,13 +103,13 @@ Terminal utilities, command-line automation scripts, and event-driven background
 
 ## Research and Papers
 
-Peer-reviewed scientific literature, algorithmic formalizations, and empirical benchmark evaluations of compilation-based knowledge loops.
+*Peer-reviewed scientific literature, algorithmic formalizations, and empirical benchmark evaluations of compilation-based knowledge loops.*
 
 - [Retrieval as Reasoning: Self-Evolving Agent-Native Retrieval via LLM-Wiki](https://arxiv.org/abs/2605.25480) - The foundational paper formalizing the Karpathy LLM Wiki design pattern into a production architecture. Introduces the Three Principles of Agent-Native Retrieval (Compilability, Composability, Evolvability) and details a system that converts unstructured documents into interlinked markdown pages, utilizing a persistent "Error Book" loop for cross-batch structural self-correction and multi-hop tool traversal.
 
 ## Videos
 
-Visual walkthroughs, conceptual code execution guides, and theoretical video essays.
+*Visual walkthroughs, conceptual code execution guides, and theoretical video essays.*
 
 - [How To Build LLM Wiki In Obsidian?](https://www.youtube.com/watch?v=QbjAQFJJyt0) (Wanderloots) - The definitive video tutorial mapping out the core 3-tier local memory architecture, showcasing how to build a file-based ingestion pipeline, implement a Git-backed maintenance loop, and deploy an agentic vault firewall wrapper.
 - [I Trained an AI on Everything I've Ever Said Online (Semi Autistic Vibe Coder)](https://m.youtube.com/watch?v=qIB8IvZqsNM) - A detailed implementation video showing how to ingest personal multimedia histories into a Karpathy-pattern local wiki. Integrates OpenAI's Whisper and Claude Code to parse raw video transcripts and JSON archives, compiling the data into a flat Obsidian folder topology (`concepts/`, `entities/`, `sources/`) utilizing automated meta-logging hooks and structural schema policies.
