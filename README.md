@@ -14,6 +14,7 @@ Inspired by a paradigm shift in software development engineering, this architect
   - [Libraries and Frameworks](#libraries-and-frameworks)
   - [Applications and Desktop Clients](#applications-and-desktop-clients)
   - [CLI Tools and Core Compilers](#cli-tools-and-core-compilers)
+- [Research and Papers](#research-and-papers)
 - [Videos](#videos)
 
 ---
@@ -99,6 +100,12 @@ Terminal utilities, command-line automation scripts, and event-driven background
 - [Tolaria](https://tolaria.md/) - An open-source, Git-first desktop markdown app and native MCP server engine built with Tauri and Rust, implementing structural file conventions, automatic AGENTS.md generation, and secure local file boundaries for agent processing.
 - [Understand Anything](https://github.com/Egonex-AI/Understand-Anything) - A highly advanced, cross-platform multi-agent compilation engine and plugin suite for Claude Code, Cursor, and Gemini CLI. Uses a deterministic Tree-sitter and LLM hybrid pipeline to synthesize directories into local, versionable knowledge-graph topologies, featuring a dedicated `/understand-knowledge` framework for parsing and visualizing community clusters within Karpathy-pattern markdown wikis.
 - [Wiki Builder (DAIR.AI)](https://github.com/dair-ai/dair-academy-plugins/tree/main/plugins/wiki-builder) - An open-source Claude Code plugin path that automates directory scaffolding, handles multi-flavor workspace indexing, and leverages localized markdown configuration files to govern agent compilation boundaries.
+
+## Research and Papers
+
+Peer-reviewed scientific literature, algorithmic formalizations, and empirical benchmark evaluations of compilation-based knowledge loops.
+
+- [Retrieval as Reasoning: Self-Evolving Agent-Native Retrieval via LLM-Wiki](https://arxiv.org/abs/2605.25480) - The foundational paper formalizing the Karpathy LLM Wiki design pattern into a production architecture. Introduces the Three Principles of Agent-Native Retrieval (Compilability, Composability, Evolvability) and details a system that converts unstructured documents into interlinked markdown pages, utilizing a persistent "Error Book" loop for cross-batch structural self-correction and multi-hop tool traversal.
 
 ## Videos
 
