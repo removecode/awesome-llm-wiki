@@ -106,6 +106,7 @@ Inspired by a paradigm shift in software development engineering, this architect
 *Peer-reviewed scientific literature, algorithmic formalizations, and empirical benchmark evaluations of compilation-based knowledge loops.*
 
 - [Retrieval as Reasoning: Self-Evolving Agent-Native Retrieval via LLM-Wiki](https://arxiv.org/abs/2605.25480) - The foundational paper formalizing the Karpathy LLM Wiki design pattern into a production architecture. Introduces the Three Principles of Agent-Native Retrieval (Compilability, Composability, Evolvability) and details a system that converts unstructured documents into interlinked markdown pages, utilizing a persistent "Error Book" loop for cross-batch structural self-correction and multi-hop tool traversal.
+- [WiCER: Wiki-memory Compile, Evaluate, Refine Iterative Knowledge Compilation for LLM Wiki Systems](https://arxiv.org/abs/2605.07068) - A foundational paper characterizing the "compilation gap" and attention dilution in long-context KV cache LLM Wiki deployments. Proposes an iterative, CEGAR-inspired compilation loop that automatically evaluates workspaces against diagnostic probes, isolates dropped facts, and injects them as cumulative structural preservation constraints, reducing catastrophic failure rates by 55%.
 
 ## Videos
 
