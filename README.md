@@ -1,3 +1,5 @@
+<img width="1920" height="1080" alt="awesome-llm-wiki-header" src="https://github.com/user-attachments/assets/c79bc912-2768-4643-9cb4-c67fbdf5619e" />
+
 # Awesome LLM Wiki [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of foundational blueprints, functional frameworks, and technical guides for building compounding, AI-compiled knowledge bases.
