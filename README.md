@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="awesome-llm-wiki-header" src="https://github.com/user-attachments/assets/c79bc912-2768-4643-9cb4-c67fbdf5619e" />
+<img width="1920" height="1080" alt="Awesome LLM Wiki" src="https://github.com/user-attachments/assets/f6e4ba61-06cc-4384-b7c4-dba987b8d6a9" />
 
 # Awesome LLM Wiki [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
