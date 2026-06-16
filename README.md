@@ -18,6 +18,7 @@ Inspired by a paradigm shift in software development engineering, this architect
   - [CLI Tools and Core Compilers](#cli-tools-and-core-compilers)
 - [Research and Papers](#research-and-papers)
 - [Videos](#videos)
+- [Podcasts](#podcasts)
 
 ---
 
@@ -133,6 +134,12 @@ Inspired by a paradigm shift in software development engineering, this architect
 - [I Trained an AI on Everything I've Ever Said Online](https://m.youtube.com/watch?v=qIB8IvZqsNM) (Semi Autistic Vibe Coder) - A detailed implementation video showing how to ingest personal multimedia histories into a Karpathy-pattern local wiki. Integrates OpenAI's Whisper and Claude Code to parse raw video transcripts and JSON archives, compiling the data into a flat Obsidian folder topology (`concepts/`, `entities/`, `sources/`) utilizing automated meta-logging hooks and structural schema policies.
 - [Karpathy's LLM Wiki: What It Means & How to Build One](https://www.youtube.com/watch?v=zVEb19AwkqM) (Tonbi's AI Garage) - A practical video guide on bootstrapping an LLM Wiki from scratch inside Claude Code, demonstrating automated multi-agent ingestion loops, backfill routines for external web research, and visual chart integrations.
 - [Why LLM Wiki? Future Of Knowledge For Agentic AI & Humans](https://www.youtube.com/watch?app=desktop&v=n4EVksU_EOs) (Wanderloots) - A visual guide explaining the mechanics of nodes, edges, and triples, the token-efficiency of GraphRAG over standard RAG, and a workflow for sandboxing human vs. agentic Obsidian vaults.
+
+## Podcasts
+
+*Audio-first breakdowns, developer interviews, and strategic discussions exploring the design, implementation, and everyday use of LLM Wiki architectures.*
+
+- [Episode 429: Getting started with LLM Wikis (Microsoft Cloud IT Pro Podcast)](https://www.msclouditpropodcast.com/episode429/) - An operational teardown of the LLM Wiki architecture tailored for enterprise environments. Explores how to wire up Obsidian Web Clipper and automated RSS monitors to create active collection channels, utilizes Copilot Cowork background loops to handle daily inbox synthesis, and provides an analysis of the compliance risks of decoupling text assets from corporate Data Loss Prevention (DLP) and sensitivity governance.
 
 ---
 
