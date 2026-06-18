@@ -16,6 +16,7 @@ Inspired by a paradigm shift in software development engineering, this architect
   - [Libraries and Frameworks](#libraries-and-frameworks)
   - [Applications and Desktop Clients](#applications-and-desktop-clients)
   - [CLI Tools and Core Compilers](#cli-tools-and-core-compilers)
+  - [Agent Skills and System Rules](#agent-skills-and-system-rules)
 - [Research and Papers](#research-and-papers)
 - [Videos](#videos)
 - [Podcasts](#podcasts)
@@ -123,6 +124,12 @@ Inspired by a paradigm shift in software development engineering, this architect
 - [Understand Anything](https://github.com/Egonex-AI/Understand-Anything) - A highly advanced, cross-platform multi-agent compilation engine and plugin suite for Claude Code, Cursor, and Gemini CLI. Uses a deterministic Tree-sitter and LLM hybrid pipeline to synthesize directories into local, versionable knowledge-graph topologies, featuring a dedicated `/understand-knowledge` framework for parsing and visualizing community clusters within Karpathy-pattern markdown wikis.
 - [Wiki Builder (DAIR.AI)](https://github.com/dair-ai/dair-academy-plugins/tree/main/plugins/wiki-builder) - An open-source Claude Code plugin path that automates directory scaffolding, handles multi-flavor workspace indexing, and leverages localized markdown configuration files to govern agent compilation boundaries.
 - [yologdev/yopedia](https://github.com/yologdev/yopedia) - A full-stack Next.js and TypeScript wiki application built entirely by autonomous agents. Implements a dual-surface architecture combining a human-readable Markdown layer (featuring inline citations, validation rules, and decay parameters) with an agent-consumable Model Context Protocol (MCP) server containing 28+ specialized data tools. Runs an ongoing multi-agent loop via GitHub Issues with a strict, automated shell-testing harness that handles continuous ingestion, claim linting, and automatic code reverts.
+
+### Agent Skills and System Rules
+
+*Procedural instructions, system schemas, and behavioral configuration definitions engineered to teach autonomous terminal models how to natively compile, link, and maintain flat-file knowledge bases.*
+
+- [NousResearch/hermes-agent (Research Wiki Skill)](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki) - A first-party, natively bundled system skill that brings the Karpathy LLM Wiki pattern to the Hermes Agent ecosystem. Features batched parallel ingestion, strict bi-directional `[[wikilink]]` creation rules, automatic file size splitting thresholds, and explicit contradiction handling protocols that isolate conflicting claims for human review while maintaining out-of-the-box compatibility with Obsidian and Logseq vaults.
 
 ## Research and Papers
 
