@@ -12,6 +12,7 @@ Inspired by a paradigm shift in software development engineering, this architect
 
 - [Foundations](#foundations)
 - [Articles and Guides](#articles-and-guides)
+- [Specifications and Standards](#specifications-and-standards)
 - [Tools and Plugins](#tools-and-plugins)
   - [Libraries and Frameworks](#libraries-and-frameworks)
   - [Applications and Desktop Clients](#applications-and-desktop-clients)
@@ -56,6 +57,15 @@ Inspired by a paradigm shift in software development engineering, this architect
 - [Self-Authoring LLM Knowledge Bases](https://www.ricardodecal.com/projects/self-authoring-llm-knowledge-base/) - A technical conceptualization extending the compilation loop to live developer conversations, transforming ephemeral terminal and editor interactions into structured, persistent memory.
 - [What is LLM Wiki Pattern? Persistent Knowledge with LLM Wikis](https://medium.com/@tahirbalarabe2/what-is-llm-wiki-pattern-persistent-knowledge-with-llm-wikis-3227f561abc1) - A structural guide defining the core filesystem architecture and ingestion loops of the LLM Wiki pattern. Outlines the read/write boundaries between raw source directories and compiled wiki spaces, detailing a 5-step compilation pipeline and contrasting the pre-compiled text routing method against traditional single-pass vector RAG pipelines.
 - [What Karpathy's LLM Wiki is Missing (And How to Fix It)](https://dev.to/penfieldlabs/what-karpathys-llm-wiki-is-missing-and-how-to-fix-it-1988) (Penfield Labs) - A deep architectural critique outlining solutions for token scaling limits in file-based context stores, featuring code patterns for semantic deduplication and pre-commit syntax hooks to protect structural integrity.
+
+## Specifications and Standards
+
+*Official architecture blueprints, industry standards, and schema specifications formalizing flat-file, agent-ready knowledge layout structures.*
+
+### Open Knowledge Format (OKF)
+
+- [Open Knowledge Format (OKF) v0.1 Specification](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md) - The official technical blueprint by Google Cloud defining an open, vendor-neutral standard for human- and agent-friendly knowledge bundles. Outlines the exact structural contracts for a file-based layout: directories of raw Markdown documents, mandatory `type` definitions in YAML frontmatter, standard horizontally linked graph paths, and reserved structural control protocols like `index.md` and `log.md`.
+- [How the Open Knowledge Format Can Improve Data Sharing (Google Cloud Blog)](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/) - The official announcement and contextual release brief introducing OKF v0.1. Outlines the industry-wide problem of fragmented AI context landscapes and formalizes the Karpathy LLM-wiki pattern into an enterprise-accepted format for decoupling knowledge generation from proprietary database frameworks.
 
 ## Tools and Plugins
 
