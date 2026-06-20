@@ -17,6 +17,7 @@ Inspired by a paradigm shift in software development engineering, this architect
   - [Libraries and Frameworks](#libraries-and-frameworks)
   - [Applications and Desktop Clients](#applications-and-desktop-clients)
   - [CLI Tools and Core Compilers](#cli-tools-and-core-compilers)
+  - [Hosting and Infrastructure Platforms](#hosting-and-infrastructure-platforms)
   - [Agent Skills and System Rules](#agent-skills-and-system-rules)
 - [Research and Papers](#research-and-papers)
 - [Videos](#videos)
@@ -129,6 +130,12 @@ Inspired by a paradigm shift in software development engineering, this architect
 - [Tolaria](https://tolaria.md/) - An open-source, Git-first desktop markdown app and native MCP server engine built with Tauri and Rust, implementing structural file conventions, automatic AGENTS.md generation, and secure local file boundaries for agent processing.
 - [Understand Anything](https://github.com/Egonex-AI/Understand-Anything) - A highly advanced, cross-platform multi-agent compilation engine and plugin suite for Claude Code, Cursor, and Gemini CLI. Uses a deterministic Tree-sitter and LLM hybrid pipeline to synthesize directories into local, versionable knowledge-graph topologies, featuring a dedicated `/understand-knowledge` framework for parsing and visualizing community clusters within Karpathy-pattern markdown wikis.
 - [yologdev/yopedia](https://github.com/yologdev/yopedia) - A full-stack Next.js and TypeScript wiki application built entirely by autonomous agents. Implements a dual-surface architecture combining a human-readable Markdown layer (featuring inline citations, validation rules, and decay parameters) with an agent-consumable Model Context Protocol (MCP) server containing 28+ specialized data tools. Runs an ongoing multi-agent loop via GitHub Issues with a strict, automated shell-testing harness that handles continuous ingestion, claim linting, and automatic code reverts.
+
+### Hosting and Infrastructure Platforms
+
+*Remote publishing layers, deployment environments, and multi-agent access infrastructure for file-based knowledge vaults.*
+
+- [wikihub.md](https://wikihub.md) - A specialized hosting and collaboration platform designed specifically for flat-file LLM wikis. Features instant markdown publishing via Git or drag-and-drop, a robust per-file access control system using a `.wikihub/acl` (CODEOWNERS-pattern) schema, and an agent-native REST API that allows autonomous systems to dynamically read, query, and modify deployed knowledge vaults securely.
 
 ### Agent Skills and System Rules
 
