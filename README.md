@@ -140,6 +140,7 @@ Inspired by a paradigm shift in software development engineering, this architect
 
 *Remote publishing layers, deployment environments, and multi-agent access infrastructure for file-based knowledge vaults.*
 
+- [Agent Wikis](https://agentwikis.com/) - A production-deployed knowledge platform built around the "Git as a database" flat-file pattern. It hosts public, human-readable wikis that anyone can browse for free to learn from, while serving the underlying raw markdown via MCP for autonomous agent ingestion. Features a closed-loop engine that tracks missed agent queries to fuel automated research and patching workflows behind human-gated commit approvals.
 - [wikihub.md](https://wikihub.md) - A specialized hosting and collaboration platform designed specifically for flat-file LLM wikis. Features instant markdown publishing via Git or drag-and-drop, a robust per-file access control system using a `.wikihub/acl` (CODEOWNERS-pattern) schema, and an agent-native REST API that allows autonomous systems to dynamically read, query, and modify deployed knowledge vaults securely.
 
 ### Agent Skills and System Rules
