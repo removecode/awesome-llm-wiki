@@ -19,6 +19,7 @@ Inspired by a paradigm shift in software development engineering, this architect
   - [CLI Tools and Core Compilers](#cli-tools-and-core-compilers)
   - [Hosting and Infrastructure Platforms](#hosting-and-infrastructure-platforms)
   - [Agent Skills and System Rules](#agent-skills-and-system-rules)
+- [Live Implementations and Reference Vaults](#live-implementations-and-reference-vaults)
 - [Research and Papers](#research-and-papers)
 - [Videos](#videos)
 - [Podcasts](#podcasts)
@@ -158,6 +159,12 @@ Inspired by a paradigm shift in software development engineering, this architect
 - [NousResearch/hermes-agent (Research Wiki Skill)](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki) - A first-party, natively bundled system skill that brings the Karpathy LLM Wiki pattern to the Hermes Agent ecosystem. Features batched parallel ingestion, strict bi-directional `[[wikilink]]` creation rules, automatic file size splitting thresholds, and explicit contradiction handling protocols that isolate conflicting claims for human review while maintaining out-of-the-box compatibility with Obsidian and Logseq vaults.
 - [sametbrr/llm-wiki-manager](https://github.com/sametbrr/llm-wiki-manager) - A production-grade implementation of the Karpathy LLM Wiki pattern packaged as a native Claude Code and agentskills.io skill. Bundles a suite of dependency-free, idempotent Python scripts for automated workspace scaffolding, index catalog synchronization, transaction ledger logging, and semantic linting capable of parsing standard markdown links and Obsidian double-bracket nodes.
 - [Wiki Builder (DAIR.AI)](https://github.com/dair-ai/dair-academy-plugins/tree/main/plugins/wiki-builder) - An open-source Claude Code plugin path that automates directory scaffolding, handles multi-flavor workspace indexing, and leverages localized markdown configuration files to govern agent compilation boundaries.
+
+## Live Implementations and Reference Vaults
+
+*Production-deployed examples and open-source markdown templates demonstrating the LLM Wiki pattern in active human-agent workflows.*
+
+- [Andrej Karpathy Wiki](https://andrej-karpathy.com/) - A live, self-growing encyclopedia mapping Karpathy's public work using a markdown-first, Cognee-backed knowledge vault. It acts as an operational reference blueprint for the LLM Wiki pattern, featuring background query-synthesis workflows that autonomously format, link, and compile source inputs back into flat markdown files.
 
 ## Research and Papers
 
