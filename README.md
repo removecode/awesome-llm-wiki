@@ -100,9 +100,9 @@ Inspired by a paradigm shift in software development engineering, this architect
 - [Tolaria](https://tolaria.md/) - An open-source, Git-first desktop markdown app and native MCP server engine built with Tauri and Rust, implementing structural file conventions, automatic AGENTS.md generation, and secure local file boundaries for agent processing.
 - [whoami.wiki](https://whoami.wiki/) ([GitHub](https://github.com/whoami-wiki/whoami)) - An open-source, private life-archiving system that converts digital data dumps (photo vaults, chat logs, bank transactions, and location histories) into a local personal encyclopedia. Uses autonomous agent pipelines to cross-reference unrelated metadata timelines into highly detailed, interlinked markdown pages complete with standard Wikipedia-style information sidebars, event logs, and relationship networks.
 - [Wikikarp](https://wikikarp.app/) - A dedicated desktop application wrapper for the Karpathy LLM Wiki pattern. Automatically compiles raw notes and scratchpads into structured, cross-referenced markdown vaults, managing local file mutations, index building, and localized query routing directly on top of your flat-file directory.
-
 - [Wikiwise](https://github.com/TristanH/wikiwise) ([Website](https://wiki-wise.com/)) - A native macOS Swift application that wraps markdown directories into a fully browsable personal wiki interface, featuring a file-watcher compilation engine, cross-link indexing graph panels, and an embedded agent shell panel.
 - [yologdev/yopedia](https://github.com/yologdev/yopedia) - A full-stack Next.js and TypeScript wiki application built entirely by autonomous agents. Implements a dual-surface architecture combining a human-readable Markdown layer (featuring inline citations, validation rules, and decay parameters) with an agent-consumable Model Context Protocol (MCP) server containing 28+ specialized data tools. Runs an ongoing multi-agent loop via GitHub Issues with a strict, automated shell-testing harness that handles continuous ingestion, claim linting, and automatic code reverts.
+
 ### Editor Extensions and Plugins
 
 *Plugins, themes, and extensions built for IDEs, code editors, and markdown-based note-taking clients.*
@@ -112,6 +112,7 @@ Inspired by a paradigm shift in software development engineering, this architect
 - [LLM Wiki (Dom Leca)](https://github.com/domleca/llm-wiki) ([Forum Post](https://forum.obsidian.md/t/new-plugin-llm-wiki-turn-your-vault-into-a-queryable-knowledge-base-privately/113223)) - A native Obsidian community plugin implementing Karpathy's compilation pattern locally via Ollama (Qwen 2.5 + Nomic Embed), featuring real-time event-driven background extraction, multi-modal hybrid search, and persistent natural language chat interfaces.
 - [Matryca Plumber](https://github.com/MarcoPorcellato/matryca-plumber) - An enterprise-grade, local-first background AI maintenance daemon and native FastMCP server for Logseq graphs. Directly handles direct Markdown AST block mutations with integrated Optimistic Concurrency Control, featuring background dangling link healing, zero-LLM link rot lints, a local cockpit UI, and deep developer optimization for Claude Code.
 - [twillm](https://github.com/Jermolene/twillm) - A TiddlyWiki-powered local knowledge management wrapper explicitly built around the Karpathy LLM Wiki pattern. It watches an Obsidian-compatible directory of flat-file Markdown nodes to dynamically compile live query filters and interactive dashboards, eliminating index file staleness across parallel human and AI agent editing loops.
+
 ### CLI Tools and Core Compilers
 
 *Terminal utilities, command-line automation scripts, and event-driven background compilation daemons.*
@@ -162,6 +163,7 @@ Inspired by a paradigm shift in software development engineering, this architect
 - [SwarmVault](https://github.com/swarmclawai/swarmvault) ([Website](https://www.swarmvault.ai/)) - A local-first RAG knowledge base compiler and MCP server that maps files into an interlinked Markdown wiki and SQLite-backed knowledge graph, featuring automated linting, local graph visualizations, and a compounding "file-back" exploratory architecture.
 - [Synto](https://github.com/kytmanov/synto) - A 100% local, Ollama-native knowledge compiler and memory layer featuring an asymmetrical dual-model compilation pipeline, SHA-256 mutation defense to protect manual human edits, an interactive terminal review TUI (`synto review`), and a native 8-tool MCP server designed to pipe structured vaults into Claude Code and Cursor.
 - [Tesserae](https://pypi.org/project/tesserae/) - An open-source autonomous context engine and local refresh daemon for developer workspaces. It continually intercepts live agent engineering sessions and raw source files to update a typed underlying ontology graph, projecting changes into an idempotent, human-editable three-layer markdown wiki directory while exposing a native Model Context Protocol (MCP) server to feed pre-warmed context packages to terminal assistants.
+
 ### Hosting and Infrastructure Platforms
 
 *Remote publishing layers, deployment environments, and multi-agent access infrastructure for file-based knowledge vaults.*
@@ -182,8 +184,8 @@ Inspired by a paradigm shift in software development engineering, this architect
 - [Obsidian Second Brain](https://github.com/eugeniughelbur/obsidian-second-brain) ([Deep Dive](https://theaioperator.io/p/i-rebuilt-karpathys-llm-wiki-heres)) - A powerful cross-CLI skill suite for Claude Code, Codex, and Gemini that updates, reconciles, and rewrites existing vault notes dynamically to enforce a compounding local knowledge graph, featuring 34 terminal commands and write-time document validation.
 - [owledge](https://github.com/elmokirk/owledge) - An open-source automation framework and behavioral runtime configuration package for agent frameworks. It enforces structured memory execution boundaries through system lifecycle hooks, utilizing strict namespace profiling and context-lane mappings to ensure independent multi-agent daemons read, write, and cross-link flat markdown concept nodes without creating directory collisions or unstructured data drift.
 - [sametbrr/llm-wiki-manager](https://github.com/sametbrr/llm-wiki-manager) - A production-grade implementation of the Karpathy LLM Wiki pattern packaged as a native Claude Code and agentskills.io skill. Bundles a suite of dependency-free, idempotent Python scripts for automated workspace scaffolding, index catalog synchronization, transaction ledger logging, and semantic linting capable of parsing standard markdown links and Obsidian double-bracket nodes.
-
 - [Wiki Builder (DAIR.AI)](https://github.com/dair-ai/dair-academy-plugins/tree/main/plugins/wiki-builder) - An open-source Claude Code plugin path that automates directory scaffolding, handles multi-flavor workspace indexing, and leverages localized markdown configuration files to govern agent compilation boundaries.
+
 ## Live Implementations and Reference Vaults
 
 *Production-deployed examples and open-source markdown templates demonstrating the LLM Wiki pattern in active human-agent workflows.*
