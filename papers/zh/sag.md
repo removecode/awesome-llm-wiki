@@ -2,6 +2,7 @@
 title: "SAG：基于 SQL 检索增强生成与查询时动态超边"
 original_title: "SAG: SQL-Retrieval Augmented Generation with Query-Time Dynamic Hyperedges"
 source_url: "https://arxiv.org/abs/2606.15971"
+english_source: "papers/en/sag.md"
 authors:
   - Yuchao Wu
   - Junqin Li
@@ -12,7 +13,7 @@ authors:
   - Guanxian Li
 ---
 
-> 本文为英文论文中文译本，仅供阅读参考。原文见 source_url。
+> 本文为英文论文中文译本，仅供阅读参考。原文见 source_url；本地英文 Markdown 见 english_source。
 
 # SAG：基于 SQL 检索增强生成与查询时动态超边
 
