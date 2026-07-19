@@ -30,9 +30,7 @@ As large language model capabilities continue to advance, the bottleneck in agen
 
 Existing methods address this challenge along two main directions, each with its own limitations. The first, dense retrieval, is at its core semantic-similarity matching; it excels at retrieving semantically proximate passages but struggles to recover explicit associative chains between entities, let alone organize evidence scattered across multiple documents into structured evidence chains (Yang et al., 2018; Trivedi et al., 2022; Mavi et al., 2024). This limitation becomes particularly pronounced when queries involve temporal constraints, entity roles, or multi-step dependencies. The second direction, structure-augmented methods, instead builds knowledge graphs or hierarchical summaries offline from documents to explicitly represent entity relationships (Edge et al., 2024; Gutiérrez et al., 2025). But explicit structure comes at a cost. Triple extraction, entity merging, and relation normalization each introduce errors at successive stages, and construction costs are high. As data evolves, the cost of maintaining a global graph may even exceed that of building it. More critically, these carefully constructed offline structures often degrade into flat similarity matching at the node or summary level at query time, a systematic decoupling between offline structure and online recall (see Section 2 for details).
 
-<p align="center">
-  <img src="../../src/image/sag/fig1.png" alt="Figure 1: Process and performance comparison of three RAG paradigms" width="100%" />
-</p>
+![Figure 1: Process and performance comparison of three RAG paradigms](/src/image/sag/fig1.png)
 
 **Figure 1: Process and performance comparison of three RAG paradigms.** NaiveRAG retrieves top-k
 chunks via dense vector similarity, offering good scalability, high speed, and low cost, but precision is
@@ -84,9 +82,7 @@ Events and entities are not produced by a cascade of sequential extraction steps
 
 This index deliberately avoids introducing a full entity disambiguation system. It is the event that truly carries semantics; entities serve merely as index points and expansion points. SAG adopts a pragmatic strategy for entity handling, relying on simple string normalization and SQL deduplication; no complete entity merging mechanism is needed for stable operation. By design, SAG’s index layer is not a heavyweight knowledge graph, but a lightweight, appendable semantic index over unstructured documents.
 
-<p align="center">
-  <img src="../../src/image/sag/fig2.png" alt="Figure 2: Architecture overview of SAG" width="100%" />
-</p>
+![Figure 2: Architecture overview of SAG](/src/image/sag/fig2.png)
 
 **Figure 2: Architecture overview of SAG.** In the offline phase, each chunk is transformed into one
 event and a set of entities, and written into SQL, vector, and full-text indices. In the online phase, the
@@ -241,9 +237,7 @@ Table 5: Trade-off between candidate event count and token cost.
 | 200 | 36.5 | 65.0 | 80.9 | 84.4 | 35.5 |
 | 500 | 36.3 | 64.3 | 81.8 | 86.1 | 76.4 |
 
-<p align="center">
-  <img src="../../src/image/sag/fig3.png" alt="Figure 3: Token marginal benefit analysis" width="100%" />
-</p>
+![Figure 3: Token marginal benefit analysis](/src/image/sag/fig3.png)
 
 **Figure 3: Token marginal benefit analysis.** Increasing the candidate event count from 50 to 100 raises
 Recall@5 from 76.12% to 80.04%; further increases to 200 and 500 yield 80.92% and 81.82%, with
