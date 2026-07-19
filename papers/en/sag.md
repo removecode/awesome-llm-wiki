@@ -30,7 +30,15 @@ As large language model capabilities continue to advance, the bottleneck in agen
 
 Existing methods address this challenge along two main directions, each with its own limitations. The first, dense retrieval, is at its core semantic-similarity matching; it excels at retrieving semantically proximate passages but struggles to recover explicit associative chains between entities, let alone organize evidence scattered across multiple documents into structured evidence chains (Yang et al., 2018; Trivedi et al., 2022; Mavi et al., 2024). This limitation becomes particularly pronounced when queries involve temporal constraints, entity roles, or multi-step dependencies. The second direction, structure-augmented methods, instead builds knowledge graphs or hierarchical summaries offline from documents to explicitly represent entity relationships (Edge et al., 2024; Gutiérrez et al., 2025). But explicit structure comes at a cost. Triple extraction, entity merging, and relation normalization each introduce errors at successive stages, and construction costs are high. As data evolves, the cost of maintaining a global graph may even exceed that of building it. More critically, these carefully constructed offline structures often degrade into flat similarity matching at the node or summary level at query time, a systematic decoupling between offline structure and online recall (see Section 2 for details).
 
-Figure 1: Process and performance comparison of three RAG paradigms. NaiveRAG retrieves top-k chunks via dense vector similarity, offering good scalability, high speed, and low cost, but precision is limited by shallow semantic matching. GraphRAG extracts triples and builds a knowledge graph offline using an LLM; it enhances evidence organization capability, but incurs high construction cost and is difficult to update incrementally. SAG extracts events and entities with an LLM and activates dynamic hyperedge structures at query time via SQL; it balances retrieval quality, structural capability, and system overhead, while naturally supporting append-only incremental updates.
+![Figure 1: Process and performance comparison of three RAG paradigms](../assets/sag/fig1.png)
+
+**Figure 1: Process and performance comparison of three RAG paradigms.** NaiveRAG retrieves top-k
+chunks via dense vector similarity, offering good scalability, high speed, and low cost, but precision is
+limited by shallow semantic matching. GraphRAG extracts triples and builds a knowledge graph offline
+using an LLM; it enhances evidence organization capability, but incurs high construction cost and is
+difficult to update incrementally. SAG extracts events and entities with an LLM and activates dynamic
+hyperedge structures at query time via SQL; it balances retrieval quality, structural capability, and system
+overhead, while naturally supporting append-only incremental updates.
 
 Our central claim is that, for queries involving structural constraints and multi-hop associations, retrieval should be governed neither entirely by dense similarity nor by offline pre-constructed static graphs. SAG transforms documents into event-entity indices, where each chunk corresponds to an event that preserves complete semantics and a set of entities serving an indexing function, together defining a latent hyperedge (see Figure 1 for a comparison of the three paradigms). At query time, SQL drives deterministic event-entity association and local hyperedge activation, this structural path is combined with vector retrieval into a unified pipeline, with the LLM performs only the final selection over a compressed candidate set. Because hyperedges are not pre-constructed but dynamically instantiated around the current query, the system does not depend on a static graph structure and requires no global recomputation.
 
@@ -74,7 +82,12 @@ Events and entities are not produced by a cascade of sequential extraction steps
 
 This index deliberately avoids introducing a full entity disambiguation system. It is the event that truly carries semantics; entities serve merely as index points and expansion points. SAG adopts a pragmatic strategy for entity handling, relying on simple string normalization and SQL deduplication; no complete entity merging mechanism is needed for stable operation. By design, SAG’s index layer is not a heavyweight knowledge graph, but a lightweight, appendable semantic index over unstructured documents.
 
-Figure 2: Architecture overview of SAG. In the offline phase, each chunk is transformed into one event and a set of entities, and written into SQL, vector, and full-text indices. In the online phase, the system performs initial recall, then query-time expansion, and finally completes selection over the compressed candidate set.
+![Figure 2: Architecture overview of SAG](../assets/sag/fig2.png)
+
+**Figure 2: Architecture overview of SAG.** In the offline phase, each chunk is transformed into one
+event and a set of entities, and written into SQL, vector, and full-text indices. In the online phase, the
+system performs initial recall, then query-time expansion, and finally completes selection over the
+compressed candidate set.
 
 ### 3.3 Seed Retrieval
 
@@ -224,7 +237,11 @@ Table 5: Trade-off between candidate event count and token cost.
 | 200 | 36.5 | 65.0 | 80.9 | 84.4 | 35.5 |
 | 500 | 36.3 | 64.3 | 81.8 | 86.1 | 76.4 |
 
-Figure 3: Token marginal benefit analysis
+![Figure 3: Token marginal benefit analysis](../assets/sag/fig3.png)
+
+**Figure 3: Token marginal benefit analysis.** Increasing the candidate event count from 50 to 100 raises
+Recall@5 from 76.12% to 80.04%; further increases to 200 and 500 yield 80.92% and 81.82%, with
+clearly higher token cost.
 
 Necessity of the LLM for reranking. Replacing the LLM with the lightweight Qwen3-Reranker-0.6B causes Recall@5 on MuSiQue to drop from 80.0% to 62.2%, a decline of 17.8 percentage points (Table 6). A lightweight reranker scores each candidate independently and cannot jointly assess which subsets of events collectively form a complete reasoning chain. Given the compressed candidate set, the LLM can detect which events share entities and how they depend on one another logically, and thus identify more accurately the subset of events critical to the current query.
 
