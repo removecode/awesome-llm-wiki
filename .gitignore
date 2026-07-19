@@ -1,2 +1,4 @@
 node_modules/
-papers/src/
+papers/src/*
+!papers/src/image/
+!papers/src/image/**
