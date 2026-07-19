@@ -13,6 +13,8 @@ Inspired by a paradigm shift in software development engineering, this architect
 - [Foundations](#foundations)
 - [Articles and Guides](#articles-and-guides)
 - [Specifications and Standards](#specifications-and-standards)
+  - [Open Knowledge Format (OKF)](#open-knowledge-format-okf)
+  - [Microservice Federated Wiki](#microservice-federated-wiki)
 - [Tools and Plugins](#tools-and-plugins)
   - [Libraries and Frameworks](#libraries-and-frameworks)
   - [Applications and Desktop Clients](#applications-and-desktop-clients)
@@ -84,6 +86,10 @@ Inspired by a paradigm shift in software development engineering, this architect
 
 - [How the Open Knowledge Format Can Improve Data Sharing (Google Cloud Blog)](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/) - The official announcement and contextual release brief introducing OKF v0.1. Outlines the industry-wide problem of fragmented AI context landscapes and formalizes the Karpathy LLM-wiki pattern into an enterprise-accepted format for decoupling knowledge generation from proprietary database frameworks.
 - [Open Knowledge Format (OKF) v0.1 Specification](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md) - The official technical blueprint by Google Cloud defining an open, vendor-neutral standard for human- and agent-friendly knowledge bundles. Outlines the exact structural contracts for a file-based layout: directories of raw Markdown documents, mandatory `type` definitions in YAML frontmatter, standard horizontally linked graph paths, and reserved structural control protocols like `index.md` and `log.md`.
+
+### Microservice Federated Wiki
+
+- [微服务联邦知识库设计方案](docs/microservice-federated-wiki-design.md) - A planned architecture for compiling multi-repo microservice landscapes into a federated file-based wiki. Separates deterministic Facts (K1), LLM-compiled Claims (K2), and cross-service Relations/Flows (K3), with a pluggable retrieval view layer (K4). Treats call-graph scan results as stable inputs, targets 20–50 repos first, and defaults to filesystem indexes without vector search.
 
 ## Tools and Plugins
 
